@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadorDeDeuda", "CalculadorDeDeuda\CalculadorDeDeuda.csproj", "{2B3F9150-8283-4A10-BB31-7E780C65E6D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{33257EE8-ABEE-4AB7-96D0-B0FCE73C1C4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B3F9150-8283-4A10-BB31-7E780C65E6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3F9150-8283-4A10-BB31-7E780C65E6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3F9150-8283-4A10-BB31-7E780C65E6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3F9150-8283-4A10-BB31-7E780C65E6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33257EE8-ABEE-4AB7-96D0-B0FCE73C1C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33257EE8-ABEE-4AB7-96D0-B0FCE73C1C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33257EE8-ABEE-4AB7-96D0-B0FCE73C1C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33257EE8-ABEE-4AB7-96D0-B0FCE73C1C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4C6D42F-DF17-4252-B0EA-D765025E0B89}
+	EndGlobalSection
+EndGlobal
