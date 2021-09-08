@@ -23,6 +23,10 @@ namespace CalculadorDeDeuda.Clases
 
         public decimal GetDeudaEnDolaresPorFecha(DateTime fecha)
         {
+            if (this.fechaDeDeuda > fecha)
+            {
+                throw new Exception();
+            }
             int cantidadDeDias = (int)(fecha - this.fechaDeDeuda).TotalDays;
             decimal total = this.monto *(decimal) (1 + (interesPorDia * cantidadDeDias));
 
